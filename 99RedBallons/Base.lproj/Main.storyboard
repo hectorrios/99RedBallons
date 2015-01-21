@@ -22,40 +22,40 @@
                                     <rect key="frame" x="0.0" y="0.0" width="400" height="610"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="0.0" width="384" height="620"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 </variation>
                             </imageView>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ZV-ZX-lgC">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                                <items>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="aw9-F2-vAJ"/>
-                                    <barButtonItem title="Next" id="HcS-aL-GRg">
-                                        <connections>
-                                            <action selector="nextBarButtonItemClicked:" destination="vXZ-lx-hvc" id="ArO-eW-IIV"/>
-                                        </connections>
-                                    </barButtonItem>
-                                </items>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="0.0" y="620" width="384" height="44"/>
-                                </variation>
-                            </toolbar>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Balloons" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dz3-r5-nxp">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="111" y="28" width="129" height="23"/>
                                 </variation>
                             </label>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ZV-ZX-lgC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="aw9-F2-vAJ"/>
+                                    <barButtonItem title="Next Balloon" id="HcS-aL-GRg">
+                                        <connections>
+                                            <action selector="nextBarButtonItemClicked:" destination="vXZ-lx-hvc" id="ArO-eW-IIV"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="623" width="375" height="44"/>
+                                </variation>
+                            </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="EN0-qc-pVu"/>
-                                <exclude reference="4ZV-ZX-lgC"/>
                                 <exclude reference="dz3-r5-nxp"/>
+                                <exclude reference="4ZV-ZX-lgC"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -65,8 +65,8 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
-                                <include reference="4ZV-ZX-lgC"/>
                                 <include reference="dz3-r5-nxp"/>
+                                <include reference="4ZV-ZX-lgC"/>
                             </mask>
                         </variation>
                     </view>

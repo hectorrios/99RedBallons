@@ -39,20 +39,20 @@ class ViewController: UIViewController {
     @IBAction func nextBarButtonItemClicked(sender: UIBarButtonItem) {
         //Move to the next ballon object
         
-        var randomNumber:Int
+//        var randomNumber:Int
+//        
+//        do {
+//            randomNumber = self.generateRandomNumber(99)
+//        } while (randomNumber == currentBalloonIndex)
         
-        do {
-            randomNumber = self.generateRandomNumber(99)
-        } while (randomNumber == currentBalloonIndex)
-        
-        self.currentBalloonIndex = randomNumber
+//        self.currentBalloonIndex = randomNumber
         
         let balloon = self.ballons[self.currentBalloonIndex]
         
         self.balloonLabel.text = "Balloon \(balloon.number)"
         self.imageView.image = balloon.image
         
-        println("The next bar button was clicked")
+        self.currentBalloonIndex++;
     }
     
     func create99Ballons() {
@@ -60,6 +60,8 @@ class ViewController: UIViewController {
         for (var index=0; index < 99; index++) {
             
             let randomNumber = Int(arc4random_uniform(UInt32(4)))
+            
+            println("The random number is \(randomNumber)" )
             
             var ballon = Ballon()
             ballon.number = index + 1
