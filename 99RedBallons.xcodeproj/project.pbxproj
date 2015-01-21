@@ -13,6 +13,10 @@
 		EAFE3E921A6FD10A00651C97 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAFE3E911A6FD10A00651C97 /* Images.xcassets */; };
 		EAFE3E951A6FD10A00651C97 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAFE3E931A6FD10A00651C97 /* LaunchScreen.xib */; };
 		EAFE3EA11A6FD10A00651C97 /* _9RedBallonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFE3EA01A6FD10A00651C97 /* _9RedBallonsTests.swift */; };
+		EAFE3EAF1A6FD2CE00651C97 /* RedBalloon1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAFE3EAB1A6FD2CE00651C97 /* RedBalloon1.jpg */; };
+		EAFE3EB01A6FD2CE00651C97 /* RedBalloon2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAFE3EAC1A6FD2CE00651C97 /* RedBalloon2.jpg */; };
+		EAFE3EB11A6FD2CE00651C97 /* RedBalloon3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAFE3EAD1A6FD2CE00651C97 /* RedBalloon3.jpg */; };
+		EAFE3EB21A6FD2CE00651C97 /* RedBalloon4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EAFE3EAE1A6FD2CE00651C97 /* RedBalloon4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		EAFE3E9A1A6FD10A00651C97 /* 99RedBallonsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 99RedBallonsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAFE3E9F1A6FD10A00651C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EAFE3EA01A6FD10A00651C97 /* _9RedBallonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _9RedBallonsTests.swift; sourceTree = "<group>"; };
+		EAFE3EAB1A6FD2CE00651C97 /* RedBalloon1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon1.jpg; sourceTree = "<group>"; };
+		EAFE3EAC1A6FD2CE00651C97 /* RedBalloon2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon2.jpg; sourceTree = "<group>"; };
+		EAFE3EAD1A6FD2CE00651C97 /* RedBalloon3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon3.jpg; sourceTree = "<group>"; };
+		EAFE3EAE1A6FD2CE00651C97 /* RedBalloon4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RedBalloon4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,7 @@
 		EAFE3E881A6FD10A00651C97 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EAFE3EAA1A6FD2CE00651C97 /* ballon_images */,
 				EAFE3E891A6FD10A00651C97 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +119,17 @@
 				EAFE3E9F1A6FD10A00651C97 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAFE3EAA1A6FD2CE00651C97 /* ballon_images */ = {
+			isa = PBXGroup;
+			children = (
+				EAFE3EAB1A6FD2CE00651C97 /* RedBalloon1.jpg */,
+				EAFE3EAC1A6FD2CE00651C97 /* RedBalloon2.jpg */,
+				EAFE3EAD1A6FD2CE00651C97 /* RedBalloon3.jpg */,
+				EAFE3EAE1A6FD2CE00651C97 /* RedBalloon4.jpg */,
+			);
+			path = ballon_images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,8 +213,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EAFE3E901A6FD10A00651C97 /* Main.storyboard in Resources */,
+				EAFE3EAF1A6FD2CE00651C97 /* RedBalloon1.jpg in Resources */,
+				EAFE3EB01A6FD2CE00651C97 /* RedBalloon2.jpg in Resources */,
+				EAFE3EB11A6FD2CE00651C97 /* RedBalloon3.jpg in Resources */,
 				EAFE3E951A6FD10A00651C97 /* LaunchScreen.xib in Resources */,
 				EAFE3E921A6FD10A00651C97 /* Images.xcassets in Resources */,
+				EAFE3EB21A6FD2CE00651C97 /* RedBalloon4.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
